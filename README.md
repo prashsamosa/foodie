@@ -59,7 +59,9 @@ Add the following document to your Firestore `menuItems` collection:
 ```
 
 ### 3. Firebase Configuration File
-Create `firebase.config.js` in your project root:
+Create `firebase.config.js` in your project root
+
+or use .env approach
 
 ```javascript
 import { initializeApp } from 'firebase/app';
